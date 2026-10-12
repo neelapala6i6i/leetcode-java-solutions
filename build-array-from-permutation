@@ -1,0 +1,10 @@
+class Solution {
+    public int[] buildArray(int[] a) {
+        int[] ans=new int[a.length];
+        for(int i=0;i<a.length;i++)
+        {
+            ans[i]=a[a[i]];
+        }
+        return ans;
+    }
+}
